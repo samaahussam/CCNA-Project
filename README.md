@@ -602,16 +602,3 @@ These are constraints of the simulation environment, not the design:
 - **No IPv6.** Deliberately scoped out of this build.
 
 ---
-
-## Future Improvements
-
-- **FHRP (HSRP/VRRP)** with a redundant distribution switch for gateway redundancy — currently each VLAN has a single point of failure at its gateway.
-- **Multi-area OSPF** — a single area is appropriate at this scale, but multi-area would demonstrate route summarization and LSA filtering as the network grows.
-- **Centralized AAA (RADIUS/TACACS+)** to replace per-device local accounts, giving single-point credential management and per-admin audit trails.
-- **Static NAT + DMZ** for publicly reachable services (web server), demonstrating inbound translation alongside the existing outbound PAT.
-- **Per-device or role-based SNMP credentials** and SNMPv3 for authenticated, encrypted monitoring traffic.
-- **Management-plane ACL** restricting VLAN 10 access to a specific admin workstation.
-
----
-
----
