@@ -614,14 +614,4 @@ These are constraints of the simulation environment, not the design:
 
 ---
 
-## Repository Contents
-
-```
-├── README.md
-├── CCNA-Project.pkt          # Packet Tracer project file
-
-```
-
 ---
-
-*Built as a hands-on CCNA capstone. Every configuration choice in this project was reasoned through rather than copied — the troubleshooting section documents where the initial approach was wrong and what the actual root cause turned out to be.*
